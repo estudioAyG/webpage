@@ -1,6 +1,6 @@
-
 import { Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { CALENDAR_URL } from "@/constants/urls";
 
 const Contact = () => {
   return (
@@ -15,7 +15,7 @@ const Contact = () => {
           className="bg-white text-blue-900 hover:bg-gray-100 font-medium text-lg px-8 py-6"
         >
           <a 
-            href="https://cal.com/estudioayg/consulta?overlayCalendar=true" 
+            href={CALENDAR_URL} 
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2"
