@@ -42,7 +42,7 @@ This project uses:
 
 1. Build the project:
 ```
-npm run dist
+npm run build
 ```
 
 2. Ensure your repository has a gh-pages branch (create it if needed).
