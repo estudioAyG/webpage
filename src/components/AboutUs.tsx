@@ -18,7 +18,7 @@ const abogados = [
   {
     nombre: "Abg. Aníbal Arro",
     matricula: "M.P. 2-1781",
-    direccion: "Cabrera 1073 - Río Cuarto",
+    direccion: "Echeverría 405 - Río Cuarto",
     telefono: "3385 431549 | 358 5713078",
     email: "arroanibal@gmail.com",
     img: anibalImagen,
@@ -26,7 +26,7 @@ const abogados = [
   {
     nombre: "Abg. Cintia Amieva",
     matricula: "M.P. 2-1782",
-    direccion: "Cabrera 1073 - Río Cuarto",
+    direccion: "Echeverría 405 - Río Cuarto",
     telefono: "358 5141257",
     email: "cinamieva@gmail.com",
     img: cintiaImagen,
