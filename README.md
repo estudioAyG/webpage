@@ -40,14 +40,31 @@ This project uses:
 
 ## 🚀 Deploying the Project
 
-1. Build the project:
+Deployment is automated via GitHub Actions. The deploy is triggered when a version tag is pushed from `master`.
+
+### Workflow
+
+1. Create a new branch from `master`:
 ```
-npm run build
+git checkout -b feat/<feature-name>
+# or
+git checkout -b fix/<fix-name>
 ```
 
-2. Ensure your repository has a gh-pages branch (create it if needed).
-3. Copy the contents of dist into gh-pages.
-4. Push to GitHub:
+2. Make your changes and test locally with `npm run dev`.
+
+3. Push your branch and open a Pull Request against `master`.
+
+4. Once the PR is reviewed and merged, create a tag to deploy:
 ```
-git push origin gh-pages
+git checkout master
+git pull
+git tag v1.x.x
+git push origin v1.x.x
 ```
+
+5. GitHub Actions will automatically:
+   - Install dependencies
+   - Build the project (`npm run build`)
+   - Deploy the contents of `dist/` to the `gh-pages` branch
+   - Tag the deployment in `gh-pages` with the same version

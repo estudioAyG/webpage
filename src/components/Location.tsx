@@ -13,7 +13,7 @@ const Location = () => {
           {/* Río Cuarto Office */}
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.3794998063436!2d-64.34971492330688!3d-33.12444017407237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2000fbfd2a06f%3A0x5c67e1c665df1c58!2sCabrera%201073%2C%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1711898271345!5m2!1sen!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.253563717387!2d-64.3569629236608!3d-33.128702481107965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2001129d3b24f%3A0xda2c155c5acec883!2sEcheverr%C3%ADa%20405%2C%20X5800BEU%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1775922237125!5m2!1ses!2sar"
               className="w-full h-[300px]"
               style={{ border: 0 }}
               allowFullScreen
@@ -23,7 +23,7 @@ const Location = () => {
             <div className="p-6 flex items-center justify-center gap-2 bg-gray-50">
               <MapPin className="w-5 h-5 text-blue-900" />
               <p className="text-gray-700">
-                Cabrera 1073, Río Cuarto, Córdoba
+                Echeverría 405, Río Cuarto, Córdoba
               </p>
             </div>
           </div>
